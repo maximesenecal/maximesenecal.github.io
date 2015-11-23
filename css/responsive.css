@@ -1,0 +1,87 @@
+@media screen and (max-width: 480px) {
+
+  /**********************************
+  TWO COLUMNS
+  ***********************************/
+
+  #primary{
+    float: left;
+    width: 30%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+  }
+
+  #secondary{
+    float: left;
+    width: 70%;
+  }
+
+  /**********************************
+  NAVBAR OFFSET
+  ***********************************/
+
+  header {
+    float: left;
+    margin: 0;
+    padding: 5px 0 0 0;
+  }
+
+  #logo {
+    text-align: left;
+    margin: 0;
+  }
+
+  h1 {
+    font-family: 'Changa One', sans-serif;
+    margin: 15px 0;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 0.8em;
+  }
+
+  h2 {
+    font-size: 0.50em;
+    margin: -5px 0 0;
+    font-weight: normal;
+  }
+
+  /**********************************
+  NAVIGATION
+  ***********************************/
+
+  nav {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    display: list-item;
+  }
+
+  nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+  }
+
+  /**********************************
+  PAGE: PORTFOLIO
+  ***********************************/
+
+  #gallery li{
+    width: 100%;
+  }
+
+  /* effectue un retour à la ligne, comme un nouveau block tout les premiers élèments */
+  #gallery li:nth-child(1n){
+    clear: left;
+  }
+}
